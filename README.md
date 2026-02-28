@@ -2,7 +2,10 @@
 
 [English version](README_en.md)
 
-Веб‑версия доступна здесь: [{USERNAME}.github.io/XRayViewer](https://{USERNAME}.github.io/XRayViewer)
+Веб‑версия доступна здесь: [https://alexandermaleckij.github.io/x-ray-viewer/](https://alexandermaleckij.github.io/x-ray-viewer/)
+
+> [!NOTE]
+> Для просмотра нужен современный браузер с поддержкой WebAssembly и Web Components.
 
 **XRayViewer** — веб‑приложение для просмотра **проприетарных STL‑файлов**, которые радиологи записывают на компакт‑диски. Подходит для просмотра снимков, сделанных в ГУЗ «ГГП № 1» (г. Гомель).
 

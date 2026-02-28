@@ -2,7 +2,10 @@
 
 [Версия на русском](README.md)
 
-Web version is available here: [{USERNAME}.github.io/XRayViewer](https://{USERNAME}.github.io/XRayViewer)
+Web version is available here: [https://alexandermaleckij.github.io/x-ray-viewer/](https://alexandermaleckij.github.io/x-ray-viewer/)
+
+> [!NOTE]
+> To use it, you need a modern browser that supports WebAssembly and Web Components.
 
 **XRayViewer** is a web application for viewing proprietary STL files that radiologists record onto compact discs.
 
