@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>X-ray Viewer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" id="webassembly" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <script type="importmap"></script>
+  <script type='module' src="main#[.{fingerprint}].js"></script>
+  <script type='module' src="components.js"></script>
+</head>
+
+<body>
+    <h1>X-ray Viewer</h1>
+    <input id="file-input" type="file" accept=".stl" />
+    <div class="content-container">
+        <div id="metadata-tables-container"></div>
+        <metadata-image id="x-ray-image"></metadata-image>
+    </div>
+    <loading-overlay id="loading-overlay" visible="true" message="Loading"></loading-overlay>
+</body>
+
+</html>

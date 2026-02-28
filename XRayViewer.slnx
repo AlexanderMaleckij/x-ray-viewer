@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/XRay.Web/XRay.Web.csproj" Id="07964ee6-b9e2-43ca-b547-22955adf562e" />
+  <Project Path="src/XRay/XRay.csproj" />
+  <Project Path="src/XRay.Console/XRay.Console.csproj" />
+</Solution>
