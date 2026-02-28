@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>X-ray Viewer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_framework/dotnet.x4iduas4sj.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-71xUW3QVD3fcuV7G5+6a3HDxZKADGABqhodrunK3ih8=" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <script type="importmap">{
+  "imports": {
+    "./_framework/dotnet.native.js": "./_framework/dotnet.native.lvk3vfu6at.js",
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.q5rqv3xrhm.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.x4iduas4sj.js",
+    "./components.js": "./components.pe62bt4wr4.js",
+    "./main.js": "./main.cvu49kh6aq.js"
+  },
+  "scopes": {},
+  "integrity": {
+    "./_framework/dotnet.js": "sha256-71xUW3QVD3fcuV7G5+6a3HDxZKADGABqhodrunK3ih8=",
+    "./_framework/dotnet.native.js": "sha256-cQc0ZBdE/FQzvM3RtYAbpyaM7pC5T9QUUqqfKn8De5U=",
+    "./_framework/dotnet.native.lvk3vfu6at.js": "sha256-cQc0ZBdE/FQzvM3RtYAbpyaM7pC5T9QUUqqfKn8De5U=",
+    "./_framework/dotnet.runtime.js": "sha256-ArknccFM1sHNVcih0x1h52AG+abNCoQjl6BlVrv3ePw=",
+    "./_framework/dotnet.runtime.q5rqv3xrhm.js": "sha256-ArknccFM1sHNVcih0x1h52AG+abNCoQjl6BlVrv3ePw=",
+    "./_framework/dotnet.x4iduas4sj.js": "sha256-71xUW3QVD3fcuV7G5+6a3HDxZKADGABqhodrunK3ih8=",
+    "./components.js": "sha256-8Us/DENmY1p9PGQMM+YnnitdGZtIyI8ppoKvVTRIrcU=",
+    "./components.pe62bt4wr4.js": "sha256-8Us/DENmY1p9PGQMM+YnnitdGZtIyI8ppoKvVTRIrcU=",
+    "./main.cvu49kh6aq.js": "sha256-SH6m2xkGP112sZXWKeydxSgZCZtCBdvY9fiUjdGA2O8=",
+    "./main.js": "sha256-SH6m2xkGP112sZXWKeydxSgZCZtCBdvY9fiUjdGA2O8="
+  }
+}</script>
+  <script type='module' src="main.cvu49kh6aq.js"></script>
+  <script type='module' src="components.pe62bt4wr4.js"></script>
+</head>
+
+<body>
+    <h1>X-ray Viewer</h1>
+    <input id="file-input" type="file" accept=".stl" />
+    <div class="content-container">
+        <div id="metadata-tables-container"></div>
+        <metadata-image id="x-ray-image"></metadata-image>
+    </div>
+    <loading-overlay id="loading-overlay" visible="true" message="Loading"></loading-overlay>
+</body>
+
+</html>
