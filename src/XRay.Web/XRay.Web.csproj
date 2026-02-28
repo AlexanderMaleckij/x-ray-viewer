@@ -3,7 +3,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <OverrideHtmlAssetPlaceholders>true</OverrideHtmlAssetPlaceholders>
-    <BlazorCacheBootResources>false</BlazorCacheBootResources>
+    <StaticWebAssetBasePath>x-ray-viewer</StaticWebAssetBasePath>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\XRay\XRay.csproj" />
