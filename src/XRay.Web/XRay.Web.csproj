@@ -3,8 +3,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <OverrideHtmlAssetPlaceholders>true</OverrideHtmlAssetPlaceholders>
-    <!-- Adding because of the URL path https://alexandermaleckij.github.io/x-ray-viewer/ -->
-    <StaticWebAssetBasePath>x-ray-viewer</StaticWebAssetBasePath>
+    <BlazorCacheBootResources>false</BlazorCacheBootResources>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\XRay\XRay.csproj" />
